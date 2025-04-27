@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="login_sign.css">
+</head>
+<body>
+<div class="container login_container">
+    <h2>login</h2>
+    <form id="loginForm" style="position: relative; left: 30px;">
+        <div class="input-container">
+            <i class="fa fa-envelope" aria-hidden="true" style="color: black"></i>
+            <input type="email" id="email" placeholder="Email" required />
+        </div>
+
+        <div class="input-container">
+            <i class="fa fa-lock" aria-hidden="true" style="color: black"></i>
+            <input
+                    type="password"
+                    id="password"
+                    placeholder="Password"
+                    required
+            />
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+    </form>
+
+    <a href="./signup.html" style="text-decoration: none; color: #000; display: inline-block; margin: 10px 65px;">Create an account</a>
+    <a href="./signup.html" style="text-decoration: none; color: #000;">Forget password?</a>
+
+    <div class="login_img_container img_container">
+        <img class="login_img" src="image-10.webp" alt="logo">
+    </div>
+    <span id="login-error-message" style="display: none; color: red; position: relative; left: 40px;"></span>
+
+    <script src="login_sign.js"></script>
+</body>
+</html>

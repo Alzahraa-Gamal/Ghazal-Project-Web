@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="cart.css">
+    <title>Home Page</title>
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <nav class="navbar-left">
+        <a href="home.html" class="nav-item">Home</a>
+        <a href="categories.html" class="nav-item">Categories</a>
+        <a href="contact-us.html" class="nav-item">Contact Us</a>
+        <a href="policy-privacy.html" class="nav-item">Policy Privacy</a>
+    </nav>
+    <div class="logo">
+        <img src="image-10.webp" alt="Logo" />
+    </div>
+    <div class="nav-right">
+        <img src="shopping-bag.png" alt="..." class="s" />
+        <img src="favorite.png" alt="..." class="v" />
+        <button onclick="window.location.href='login.html'" class="sign-up">
+            LOGIN/Sign Up
+        </button>
+    </div>
+</header>
+
+
+
+<!-- Hero Section -->
+<section class="hero" style="position: relative;">
+    <div class="hero-text">
+        <h1>Find The Best<br />Fashion Style<br />For You</h1>
+
+        <button class="shop" onclick="window.location.href='categories.html'">
+            SHOP NOW
+        </button>
+    </div>
+
+    <div class="hero-image">
+        <img src="v219_101.png" alt="hero" />
+    </div>
+
+</section>
+
+<!--cart-->
+<div class="cart" style="position: absolute; right:50px; top: 68px">
+
+
+    <div class="content-center">
+        <img src="https://hanzshop.net/_next/static/media/empty_cart.ebe5397a.svg" alt="cart Image" class="image-1">
+        <p class="your-chart-is-empty-now">YOUR CART IS EMPTY NOW</p>
+        <div class="rectangle-7">
+            <a href="./home.html" class="return-to-shop">Return To Shop</a>
+        </div>
+    </div>
+
+</div>
+<!-- cart-->
+
+<!-- fav -->
+<div class="favourite" style="position: absolute; right:50px; top: 68px">
+    <h1 class="wishlist">Wishlist</h1>
+
+    <div class="content-center">
+        <img src="Screenshot%202025-04-26%20203719.png" alt="Wishlist Image" class="image-1">
+        <p class="no-products-in-the-wishlist">NO PRODUCTS IN THE WISHLIST</p>
+        <div class="rectangle-7">
+            <a href="./home.html" class="return-to-shop">Return To Shop</a>
+        </div>
+    </div>
+</div>
+<!-- fav -->
+
+<!--fav-->
+<!-- Categories -->
+<section class="shop-collection">
+    <h2>The Shop collection</h2>
+
+    <div class="categories">
+        <div class="category-item" onclick="window.location.href='coats.html'">
+            <img src="v219_101.png" alt="Coats" />
+            <div class="category-title">Coats</div>
+        </div>
+        <div
+                class="category-item"
+                onclick="window.location.href='dresses.html'"
+        >
+            <img src="v254_100.png" alt="Dresses" />
+            <div class="category-title">Dresses</div>
+        </div>
+        <div class="category-item" onclick="window.location.href='suits.html'">
+            <img src="v254_108.png" alt="Suits" />
+            <div class="category-title">Suits</div>
+        </div>
+        <div
+                class="category-item"
+                onclick="window.location.href='cardigans.html'"
+        >
+            <img src="v254_119.png" alt="Cardigans" />
+            <div class="category-title">Cardigans</div>
+        </div>
+    </div>
+</section>
+<!-- Products -->
+<section class="products-section">
+    <div class="products-title">
+        <h2>New Arrivals</h2>
+    </div>
+
+    <div class="products">
+        <div class="product" onclick="window.location.href='FloralDress.html'">
+            <img src="v254_100.png" alt="Floral Dress" />
+            <h3>Floral Dress</h3>
+            <p>1,200 EGP</p>
+            <img src="rating%20(1).png" alt="Rating" />
+        </div>
+
+        <div class="product" onclick="window.location.href='SAUDICOAT.html'">
+            <img src="v219_101.png" alt="Saudi Coat" />
+            <h3>SAUDI COAT</h3>
+            <p>1,500 EGP</p>
+            <img src="rating%20(1).png" alt="Rating" />
+        </div>
+
+        <div class="product" onclick="window.location.href='JamilaSuit.html'">
+            <img src="v254_108.png" alt="Jamila Suit" />
+            <h3>Jamila Suit</h3>
+            <p>2,000 EGP</p>
+            <img src="rating%20(1).png" alt="Rating" />
+        </div>
+
+        <div class="product" onclick="window.location.href='DijaKaftan.html'">
+            <img src="v254_119.png" alt="Dija Kaftan" />
+            <h3>Dija Kaftan</h3>
+            <p>3,500 EGP</p>
+            <img src="rating%20(1).png" alt="Rating" />
+        </div>
+
+        <div class="product" onclick="window.location.href='CelineSuit.html'">
+            <img src="v254_75.png" alt="Celine Suit" />
+            <h3>Celine Suit</h3>
+            <p>3,000 EGP</p>
+            <img src="rating%20(1).png" alt="Rating" />
+        </div>
+
+        <div class="product">
+            <img src="v254_115.png" alt="Shama Kaftan" />
+            <h3>Shama Kaftan</h3>
+            <p>2,000 EGP</p>
+            <img src="rating%20(1).png" alt="Rating" />
+        </div>
+    </div>
+</section>
+<!-- Deal of the Day -->
+<section class="deal-section">
+    <div class="left-side">
+        <img src="v219_101.png" alt="Deal Image" />
+    </div>
+    <div class="right-side">
+        <h2>Exclusive Deal Of The Day!</h2>
+        <div class="deal-countdown">
+            <div><span id="days">00</span><br />Days</div>
+            <div><span id="hours">00</span><br />Hours</div>
+            <div><span id="minutes">00</span><br />Min</div>
+            <div><span id="seconds">00</span><br />Sec</div>
+        </div>
+        <button
+                class="shop-button"
+                onclick="window.location.href='categories.html'"
+        >
+            Shop Now
+        </button>
+        <p class="subtext">
+            Discover a fusion of timeless<br />
+            elegance and<br />
+            contemporary style.
+        </p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-column">
+        <h4>Company</h4>
+        <p>
+            <a href="contact-us.html">About Us</a><br /><a href="contact-us.html"
+        >Contact</a
+        ><br /><a href="contact-us.html">News</a><br /><a
+                href="contact-us.html"
+        >Support</a
+        >
+        </p>
+    </div>
+
+    <div class="footer-column">
+        <h4>Help</h4>
+        <p>
+            <a href="policy-privacy.html">Shipping & Return</a><br /><a
+                href="contact-us.html"
+        >Help Center</a
+        ><br /><a href="policy-privacy.html">Terms & Conditions</a><br /><a
+                href="policy-privacy.html"
+        >Privacy Policy</a
+        >
+        </p>
+    </div>
+
+    <div class="footer-column">
+        <h4>Shop</h4>
+        <p>
+            <a href="categories.html">Products</a><br /><a href="contact-us.html"
+        >Overview</a
+        ><br /><a href="categories.html">Pricing</a><br /><a
+                href="categories.html"
+        >Releases</a
+        >
+        </p>
+    </div>
+
+
+    <div class="footer-logo-column">
+        <img src="image-10.webp" alt="Ghazal Logo" class="footer-logo" />
+        <h4 class="follow-title">Follow Us</h4>
+        <div class="social-icons">
+            <img src="tiktok.png" alt="TikTok" />
+            <img src="instagram%20(1).png" alt="Instagram" />
+            <img src="facebook%20(1).png" alt="Facebook" />
+            <img src="whatsapp%20(1).png" alt="WhatsApp" />
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>2025 All Rights Reserved by Ghazal | Terms Privacy Conditions</p>
+    </div>
+</footer>
+
+<script src="home.js"></script>
+</body>
+</html>
