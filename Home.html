@@ -11,11 +11,27 @@
 <!-- Header -->
 <header class="header">
     <nav class="navbar-left">
-        <a href="home.html" class="nav-item">Home</a>
-        <a href="categories.html" class="nav-item">Categories</a>
-        <a href="contact-us.html" class="nav-item">Contact Us</a>
-        <a href="policy-privacy.html" class="nav-item">Policy Privacy</a>
+        <ul class="nav-list">
+            <li><a href="Home.html" class="nav-item">Home</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="nav-item">Shop</a>
+                <ul class="dropdown-menu">
+                    <li><a href="cat4.html">Kaftans</a></li>
+                    <li><a href="cat2.html">Dresses</a></li>
+                    <li><a href=cat3.html>Suits</a></li>
+                    <li><a href="cat1.html">Coats&Jackets</a></li>
+                    <li><a href="">White Friday</a></li>
+
+                </ul>
+            </li>
+
+            <li><a href="contact.html" class="nav-item">Contact Us</a></li>
+            <li><a href="privacy.html" class="nav-item">Policy Privacy</a></li>
+        </ul>
     </nav>
+
+
     <div class="logo">
         <img src="image-10.webp" alt="Logo" />
     </div>
@@ -26,19 +42,38 @@
             LOGIN/Sign Up
         </button>
     </div>
+
 </header>
 
 
 
 <!-- Hero Section -->
 <section class="hero" style="position: relative;">
+    <div class="circle-decor circle-right-top"></div>
+    <div class="circle-decor circle-right-bottom"></div>
+    <div class="circle-decor circle-left-top"></div>
+    <div class="circle-decor circle-left-bottom"></div>
+
+    <div class="bg-rectangle left-rectangle"></div>
+
+
+    <div class="bg-rectangle right-rectangle"></div>
+    <div class="circle-bottom-left"></div>
+    <div class="circle-decor circle-center"></div>
+
+
+
+
     <div class="hero-text">
+
         <h1>Find The Best<br />Fashion Style<br />For You</h1>
 
-        <button class="shop" onclick="window.location.href='categories.html'">
+        <button class="shop" onclick="window.location.href='cat1.html'">
             SHOP NOW
         </button>
     </div>
+
+
 
     <div class="hero-image">
         <img src="v219_101.png" alt="hero" />
@@ -47,14 +82,14 @@
 </section>
 
 <!--cart-->
-<div class="cart" style="position: absolute; right:50px; top: 68px">
+<div class="cart" >
 
 
     <div class="content-center">
         <img src="https://hanzshop.net/_next/static/media/empty_cart.ebe5397a.svg" alt="cart Image" class="image-1">
         <p class="your-chart-is-empty-now">YOUR CART IS EMPTY NOW</p>
         <div class="rectangle-7">
-            <a href="./home.html" class="return-to-shop">Return To Shop</a>
+            <a href="Home.html" class="return-to-shop">Return To Shop</a>
         </div>
     </div>
 
@@ -62,14 +97,14 @@
 <!-- cart-->
 
 <!-- fav -->
-<div class="favourite" style="position: absolute; right:50px; top: 68px">
+<div class="favourite">
     <h1 class="wishlist">Wishlist</h1>
 
     <div class="content-center">
         <img src="Screenshot%202025-04-26%20203719.png" alt="Wishlist Image" class="image-1">
         <p class="no-products-in-the-wishlist">NO PRODUCTS IN THE WISHLIST</p>
         <div class="rectangle-7">
-            <a href="./home.html" class="return-to-shop">Return To Shop</a>
+            <a href="Home.html" class="return-to-shop">Return To Shop</a>
         </div>
     </div>
 </div>
@@ -81,27 +116,27 @@
     <h2>The Shop collection</h2>
 
     <div class="categories">
-        <div class="category-item" onclick="window.location.href='coats.html'">
+        <div class="category-item" onclick="window.location.href='cat1.html'">
             <img src="v219_101.png" alt="Coats" />
-            <div class="category-title">Coats</div>
+            <div class="category-title">Coats&jackets</div>
         </div>
         <div
                 class="category-item"
-                onclick="window.location.href='dresses.html'"
+                onclick="window.location.href='cat2.html'"
         >
             <img src="v254_100.png" alt="Dresses" />
             <div class="category-title">Dresses</div>
         </div>
-        <div class="category-item" onclick="window.location.href='suits.html'">
+        <div class="category-item" onclick="window.location.href='cat3.html'">
             <img src="v254_108.png" alt="Suits" />
             <div class="category-title">Suits</div>
         </div>
         <div
                 class="category-item"
-                onclick="window.location.href='cardigans.html'"
+                onclick="window.location.href='cat4.html'"
         >
-            <img src="v254_119.png" alt="Cardigans" />
-            <div class="category-title">Cardigans</div>
+            <img src="v254_119.png" alt="Kaftans" />
+            <div class="category-title">Kaftans</div>
         </div>
     </div>
 </section>
@@ -112,35 +147,35 @@
     </div>
 
     <div class="products">
-        <div class="product" onclick="window.location.href='FloralDress.html'">
+        <div class="product" onclick="window.location.href='cat2.html'">
             <img src="v254_100.png" alt="Floral Dress" />
             <h3>Floral Dress</h3>
             <p>1,200 EGP</p>
             <img src="rating%20(1).png" alt="Rating" />
         </div>
 
-        <div class="product" onclick="window.location.href='SAUDICOAT.html'">
-            <img src="v219_101.png" alt="Saudi Coat" />
-            <h3>SAUDI COAT</h3>
+        <div class="product" onclick="window.location.href='cat1.html'">
+            <img src="v219_101.png" alt="OVERSIZE COAT" />
+            <h3>OVERSIZE COAT</h3>
             <p>1,500 EGP</p>
             <img src="rating%20(1).png" alt="Rating" />
         </div>
 
-        <div class="product" onclick="window.location.href='JamilaSuit.html'">
-            <img src="v254_108.png" alt="Jamila Suit" />
-            <h3>Jamila Suit</h3>
-            <p>2,000 EGP</p>
+        <div class="product" onclick="window.location.href='cat3.html'">
+            <img src="v254_108.png" alt="Classic Formal Suit" />
+            <h3>Classic Formal Suit</h3>
+            <p>2,500 EGP</p>
             <img src="rating%20(1).png" alt="Rating" />
         </div>
 
-        <div class="product" onclick="window.location.href='DijaKaftan.html'">
-            <img src="v254_119.png" alt="Dija Kaftan" />
-            <h3>Dija Kaftan</h3>
+        <div class="product" onclick="window.location.href='cat4.html'">
+            <img src="v254_119.png" alt="Arabian Kaftan" />
+            <h3>Arabian Kaftan</h3>
             <p>3,500 EGP</p>
             <img src="rating%20(1).png" alt="Rating" />
         </div>
 
-        <div class="product" onclick="window.location.href='CelineSuit.html'">
+        <div class="product" onclick="window.location.href='cat4.html'">
             <img src="v254_75.png" alt="Celine Suit" />
             <h3>Celine Suit</h3>
             <p>3,000 EGP</p>
@@ -148,9 +183,9 @@
         </div>
 
         <div class="product">
-            <img src="v254_115.png" alt="Shama Kaftan" />
-            <h3>Shama Kaftan</h3>
-            <p>2,000 EGP</p>
+            <img src="v254_115.png" alt="Eastern Gazelle Kaftan" />
+            <h3>Eastern Gazelle Kaftan</h3>
+            <p>3,000 EGP</p>
             <img src="rating%20(1).png" alt="Rating" />
         </div>
     </div>
@@ -185,41 +220,23 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="footer-column">
-        <h4>Company</h4>
-        <p>
-            <a href="contact-us.html">About Us</a><br /><a href="contact-us.html"
-        >Contact</a
-        ><br /><a href="contact-us.html">News</a><br /><a
-                href="contact-us.html"
-        >Support</a
-        >
-        </p>
-    </div>
-
-    <div class="footer-column">
         <h4>Help</h4>
         <p>
-            <a href="policy-privacy.html">Shipping & Return</a><br /><a
-                href="contact-us.html"
-        >Help Center</a
-        ><br /><a href="policy-privacy.html">Terms & Conditions</a><br /><a
-                href="policy-privacy.html"
-        >Privacy Policy</a
-        >
+            <a href="privacy.html">Shipping & Return Policy</a><br /><a
+                href="contact.html">Help Center</a>
+            <br /><a href="privacy.html">Privacy Policy</a>
         </p>
     </div>
 
     <div class="footer-column">
-        <h4>Shop</h4>
+        <h4>Company</h4>
         <p>
-            <a href="categories.html">Products</a><br /><a href="contact-us.html"
-        >Overview</a
-        ><br /><a href="categories.html">Pricing</a><br /><a
-                href="categories.html"
-        >Releases</a
-        >
+            <a href="contact.html">Contact Us </a>
+            <br /><a href="contact.html">Support</a>
         </p>
     </div>
+
+
 
 
     <div class="footer-logo-column">
@@ -239,5 +256,6 @@
 </footer>
 
 <script src="home.js"></script>
+<script src="icon.js" defer ></script>
 </body>
 </html>
